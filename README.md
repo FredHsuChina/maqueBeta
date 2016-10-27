@@ -1,5 +1,3 @@
-# MaqueBeta
-# MaqueBeta
-# maqueBeta
-# maqueBeta
-# maqueBeta
+# MaqueBeta 
+# 这是一个游戏作弊软件，游戏作弊无下限。
+
