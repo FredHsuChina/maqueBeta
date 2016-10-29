@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>zh_CN</string>
+	<key>CFBundleDisplayName</key>
+	<string>雀霸</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -34,6 +36,7 @@
 		<string>wx598a4c7d6957ff22</string>
 		<string>weixin</string>
 		<string>wechat</string>
+		<string>Classic Miner Free</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>

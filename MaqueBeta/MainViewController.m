@@ -126,7 +126,7 @@
             if (isOpenGame) {
                 //启动游戏
                 NSDictionary *option = @{@"ab":@"1"};
-                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"weixin://"] options:option completionHandler:^(BOOL success) {
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"firegame-GoldMinerFree://"] options:option completionHandler:^(BOOL success) {
                     
                 }];
             }else{
