@@ -34,7 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.title = @"雀霸";
+    self.title = @"麻游助手";
     [self.view setBackgroundColor:[UIColor whiteColor]];
     self.navigationController.navigationBar.hidden = NO;
     self.navigationController.navigationBar.barTintColor=HexRGB(0x4585d7);

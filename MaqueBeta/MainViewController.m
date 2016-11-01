@@ -106,7 +106,7 @@
     }
 }
 -(void)alertShow:(NSString *)message isNeedOther:(BOOL)isNeedOther isNeedClose:(BOOL)isNeedClose{
-    NSString *title = @"雀霸";
+    NSString *title = @"麻游助手";
     NSString *cancelBtnTitle = @"取消";
     if (!isNeedOther) {
         cancelBtnTitle = @"确定";
