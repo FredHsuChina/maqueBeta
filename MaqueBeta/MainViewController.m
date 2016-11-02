@@ -125,11 +125,17 @@
             //确定按钮
             if (isOpenGame) {
                 //启动游戏
-                NSDictionary *option = @{@"ab":@"1"};
-                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"firegame-GoldMinerFree://"] options:option completionHandler:^(BOOL success) {
-                    
-                }];
-            }else{
+                BOOL isJiHuo =[[NSUserDefaults standardUserDefaults] objectForKey:@"jihuo"];
+                if (isJiHuo==YES) {
+                    NSDictionary *option = @{@"ab":@"1"};
+                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"firegame-GoldMinerFree://"] options:option completionHandler:^(BOOL success) {
+                        
+                    }];
+                }else{
+                     [blockSelf alertShow:@"您未激活,无法启动应用" isNeedOther:NO isNeedClose:NO];
+                }
+                }else{
+                [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"jihuo"];
                 [blockSelf alertShow:@"激活成功" isNeedOther:NO isNeedClose:YES];
             }
         }];
