@@ -52,7 +52,7 @@
 //    headView.scrollView.scrollEnabled = NO;
     UIBarButtonItem *contactMeBtn = [[UIBarButtonItem alloc] initWithTitle:@"联系我们" style:UIBarButtonItemStylePlain target:self action:@selector(contactMe:)];
     self.navigationItem.rightBarButtonItem = contactMeBtn;
-    mainView =  [[UIWebView alloc] initWithFrame:CGRectMake(0, 64, SCRIEEN_WIDTH, SCRIEEN_HEIGHT-64)];
+    mainView =  [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, SCRIEEN_WIDTH, SCRIEEN_HEIGHT)];
     mainView.scrollView.scrollEnabled = YES;
     [mainView setBackgroundColor:[UIColor whiteColor]];
     mainView.delegate   = self;
